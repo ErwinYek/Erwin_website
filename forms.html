@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <title>Tit for Tat - User Profile</title>
+</head>
+<body>
+    <div class="form">
+        <header>
+            <img src="user.png" alt="User Image" class="round">
+            <h1>Tit For Tat Profile</h1>
+        </header>
+        <main>
+            <nav>
+                <ul>
+                    <li><a href="indexxx.html">Home</a></li>
+                    <li><a href="forms.html">Forms</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="ijc.html">IJC</a></li>
+                </ul>
+            </nav>
+            <section class="personal-details">
+                <div class="input-group">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname" placeholder="Enter First Name" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname" placeholder="Enter Last Name" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="gender" required>
+                        <option value="" disabled selected>Please select one…</option>
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="other">Other</option>
+                        <option value="Prefer not to answer">Prefer not to Answer</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name "email" placeholder="example@gmail.com" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="phone">Phone #</label>
+                    <input type="tel" id="phone" name="phone" placeholder="1234567" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="department">Department</label>
+                    <select id="department" name="department" required>
+                        <option value="" disabled selected>Please select one…</option>
+                        <option value="AAGRIB">Associate Degree In Agribusiness</option>
+                        <option value="ABIO">Associate Degree In Biology</option>
+                        <option value="AMTH">Associate Degree In Mathematics</option>
+                        <option value="ANRM">Associate Degree In Natural Resources Management</option>
+                        <option value="AIT">Associate Degree In Information Technology</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>House Color</label>
+                    <div>
+                        <input type="checkbox" id="yellow-house" name="house-color" value="yellow">
+                        <label for="yellow-house">Yellow House</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="red-house" name="house-color" value="red">
+                        <label for="red-house">Red House</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="green-house" name="house-color" value="green">
+                        <label for="green-house">Green House</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="blue-house" name="house-color" value="blue">
+                        <label for="blue-house">Blue House</label>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <button type="submit" class="submit-button">Submit</button>
+                </div>
+            </section>
+        </main>
+        <footer>&copy; 2023 Tit for Tat. All rights reserved.</footer>
+    </div>
+</body>
+</html>

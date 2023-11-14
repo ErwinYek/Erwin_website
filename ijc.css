@@ -1,0 +1,104 @@
+.Container {
+    width: 100%;
+    height: 100%;
+    background-image: url(light.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #8BC34A; /* Green background color */
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4CAF50; /* Darker green on hover */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #C8E6C9; /* Light green background color */
+}
+
+.container {
+    height: 500px;
+    width: 400px;
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background: #81C784; /* Light green background color */
+}
+
+.image-section {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: rgba(88, 162, 205, 0.8);
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.text-content {
+    text-align: center;
+    color: #FFF;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-content h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.text-content p {
+    font-size: 15px;
+    max-width: 300px;
+    margin: 10px 0;
+}
+
+.btn {
+    height: 34px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: 500;
+    background: #4CAF50; /* Green button background color */
+    color: #FFF;
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.btn:hover {
+    background: #388E3C; /* Darker green on hover */
+}
